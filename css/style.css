@@ -1,0 +1,36 @@
+/* 
+  =================================
+  Our styling will go in this file.
+  =================================
+*/
+
+
+/* leave this in place! */
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: 1px solid red 
+  }
+  
+  :root {
+    --primary-color: hsl(242, 38%, 75%);
+    --secondary-color: hsl(0, 0%, 20%);
+    --lable-text-colour: hsl(219, 59%, 30%);
+    --spacing-sm: 0.5rem;
+    --spacing: 1rem;
+    --spacing-lg: 2rem;
+  }
+
+body {
+
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: var(--primary-color);
+  color: var(--lable-text-colour);
+  border: none;
+  margin-top: var(--spacing);
+
+}
